@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+
+        <!-- EMBED FAVICON -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- EMBED FONT  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- EMBED RESET CSS -->
+        <link rel="stylesheet" href="./assets//css/reset.css" />
+
+        <!-- EMBED GRID SYSTEM CSS -->
+        <link rel="stylesheet" href="./assets/css/gridsystem.css" />
+
+        <!-- EMBED STYLE CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!-- RESPONSIVE CSS -->
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+    </head>
+    <body>
+        <!-- HEADER - PC -->
+        <header class="header fixed">
+            <div class="header__inner">
+                <!-- Email Box -->
+                <div class="header__email-box">
+                    <div class="logo">
+                        <img
+                            class="header__img"
+                            src="./assets/img/logo.png"
+                            alt=""
+                        />
+                    </div>
+                    <a
+                        href="mailto:hi@arif.interactive"
+                        class="header__mail-text"
+                        >hi@arif.interactive
+                    </a>
+                </div>
+
+                <!-- Header Avatar-->
+                <a href="#">
+                    <img
+                        src="./assets/img/hedaer__avatar.png"
+                        alt="Anh Tuan"
+                        class="header__avatar"
+                    />
+                </a>
+                <!-- Header Navigation - PC -->
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#project" class="nav__item-link"
+                                >Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#journey" class="nav__item-link"
+                                >Journey
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#service" class="nav__item-link"
+                                >Service
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__item-link"
+                                >Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Navigation Mobile -->
+                <div class="nav-mobile hide-on-pc">
+                    <img src="./assets/img/logo-mobile.png" alt="" />
+                    <label for="input-checkbox" class="logo">
+                        <img
+                            class="header__img"
+                            src="./assets/img/mobile-nav-logo.png"
+                            alt=""
+                        />
+                    </label>
+                </div>
+            </div>
+        </header>
+
+        <!-- HEADER - MOBILE  -->
+        <header class="header__mobile hide-on-pc">
+            <input type="checkbox" class="input-checkbox" id="input-checkbox" />
+            <!-- OVERLAY -->
+            <label hidden for="input-checkbox" class="overlay"></label>
+
+            <div class="menu__mobile">
+                <!-- Cancel Mobile -->
+                <label for="input-checkbox">
+                    <svg
+                        fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                    >
+                        <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                        />
+                    </svg>
+                </label>
+
+                <!-- Logo -->
+                <img
+                    src="./assets/img/hedaer__avatar.png"
+                    alt="Anh Tuan"
+                    class="header__avatar"
+                />
+
+                <!-- Navigation -->
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#!" class="menu__item-link">Projects</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#!" class="menu__item-link">Journey</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#!" class="menu__item-link">Service</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#!" class="menu__item-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </body>
+</html>

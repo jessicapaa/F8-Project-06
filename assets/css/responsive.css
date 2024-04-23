@@ -1,0 +1,105 @@
+/* PC */
+@media screen and (min-width: 992px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+
+
+/* TABLE & MOBILE */
+@media screen and (max-width: 991.98px) {
+
+    .nav,
+    .header__email-box {
+        display: none;
+    }
+
+    .header {
+        padding: 10px 20px;
+        border-bottom: 1px solid #D6D3E2;
+    }
+
+    .header::after {
+        position: absolute;
+    }
+
+    .header__avatar {
+        width: 38px;
+        height: 44px;
+        object-fit: cover;
+    }
+
+    .header .logo {
+        width: 32px;
+        height: 32px;
+    }
+
+    .nav-mobile {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    .overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 1;
+
+        background: rgba(0, 0, 0, 0.4);
+
+        visibility: hidden;
+        opacity: 0;
+
+        transition: 0.25s linear;
+    }
+
+    .menu__mobile {
+        padding: 40px;
+
+        position: fixed;
+        inset: 0 30% 0 0;
+        z-index: 2;
+
+        background: #ebebeb;
+
+        transform: translateX(-100%);
+
+        transition: 0.25s linear;
+    }
+
+    .menu__mobile svg {
+        position: absolute;
+        width: 12px;
+        right: 24px;
+        top: 16px;
+    }
+
+    .menu__mobile img {
+        margin: 24px 0;
+    }
+
+    .menu__item-link {
+        display: inline-block;
+        padding: 18px 8px;
+        font-weight: 500;
+        color: #080415;
+    }
+
+    .input-checkbox:checked~.overlay {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .input-checkbox:checked~.menu__mobile {
+        transform: translateX(0%);
+    }
+}
+
+
+
+/* TABLE */
+@media screen and (min-width:576px) and (max-width: 991.98px) {}
+
+
+/* MOBILE */
+@media screen and (max-width:575.98px) {}
