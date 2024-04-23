@@ -15,6 +15,7 @@
     }
 
     .header {
+        max-width: 540px;
         padding: 10px 20px;
         border-bottom: 1px solid #D6D3E2;
     }
@@ -92,6 +93,45 @@
 
     .input-checkbox:checked~.menu__mobile {
         transform: translateX(0%);
+    }
+
+    .x {
+        order: 1;
+        overflow: hidden;
+    }
+
+    .hero__info {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .hero__cta,
+    .hero__contact {
+        margin-top: 30px;
+    }
+
+    .hero__heading {
+        width: 260px;
+        color: #080415;
+        font-size: 4.2rem;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 119.048% */
+        letter-spacing: -1.68px;
+    }
+
+    .hero__img {
+        width: 260px;
+        height: 355px;
+    }
+
+    .hero__media {
+        text-align: center;
+    }
+
+    .hero__media::after {
+        bottom: -55px;
+        left: -185px;
     }
 }
 
