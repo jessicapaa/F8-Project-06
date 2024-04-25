@@ -154,6 +154,42 @@
         margin-top: 24px;
         grid-template-columns: 1fr 1fr;
     }
+
+    /* SPEC */
+
+    .spec__desc {
+        width: 350px;
+    }
+
+    .spec__list {
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+
+    .spec__dots {
+        margin-top: 30px;
+        display: flex;
+        column-gap: 8px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .spec__dot {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #08041533;
+    }
+
+    .spec__dot.active {
+        width: 20px;
+        height: 20px;
+        border: 1px solid;
+        background: #5D3BEE;
+        border: 3px solid #fff;
+        outline: 1px solid #5D3BEE;
+    }
+
 }
 
 
