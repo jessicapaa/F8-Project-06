@@ -133,6 +133,27 @@
         bottom: -55px;
         left: -185px;
     }
+
+    /* CLIENT */
+    .client__heading {
+        text-align: center;
+        margin-left: initial;
+    }
+
+    .client__heading::before {
+        margin-bottom: 20px;
+        top: -8px;
+        left: 75px;
+    }
+
+    .client__inner {
+        justify-content: center;
+    }
+
+    .network-list {
+        margin-top: 24px;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 
