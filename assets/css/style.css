@@ -109,16 +109,22 @@ a {
     background: #FBFAFF;
 }
 
-.header__inner {
+.header__inner,
+.footer__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__email-box {
+.header__email-box,
+.footer__email-box {
     display: flex;
     align-items: center;
     column-gap: 10px;
+}
+
+.footer__avatar {
+    margin-left: 160px;
 }
 
 .logo {
@@ -136,7 +142,8 @@ a {
     cursor: pointer;
 }
 
-.header__mail-text {
+.header__mail-text,
+.footer__mail-text {
     color: #080415;
     font-size: 2.1rem;
     font-weight: 500;
@@ -812,4 +819,36 @@ a {
 .contact__decor.tr {
     top: 0;
     right: 0;
+}
+
+/* FOOTER */
+
+.footer {
+    padding-top: 100px;
+}
+
+.footer__copyright {
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(12, 7, 32, 0.2);
+    /* opacity: 0.2; */
+    padding: 0 103px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copy-right {
+    padding: 24px 0;
+    display: flex;
+    column-gap: 16px;
+}
+
+.footer__desc {
+    color: #525771;
+    opacity: 0.8;
+    font-size: 1.8rem;
+    line-height: 30px;
+    /* 166.667% */
+    letter-spacing: -0.54px;
 }

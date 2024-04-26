@@ -300,6 +300,45 @@
     .product__img+.product__img {
         display: none;
     }
+
+    /* FOOTER */
+
+    .footer__top {
+        flex-direction: column;
+    }
+
+    .footer__avatar {
+        order: 1;
+        margin-left: initial;
+    }
+
+    .footer__email-box {
+        order: 2;
+
+    }
+
+    .footer__nav {
+        margin-top: 34px;
+        margin-bottom: 64px;
+    }
+
+    .footer__copyright {
+        flex-direction: column;
+        padding: 0;
+        border-top: none;
+    }
+
+    .footer__copy-right {
+        order: 1;
+
+    }
+
+    .footer__copy-left {
+        order: 2;
+        border-top: 1px solid rgba(12, 7, 32, 0.2);
+        padding: 32px 0;
+
+    }
 }
 
 
