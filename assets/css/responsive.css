@@ -166,29 +166,7 @@
         overflow: hidden;
     }
 
-    .spec__dots {
-        margin-top: 30px;
-        display: flex;
-        column-gap: 8px;
-        align-items: center;
-        justify-content: center;
-    }
 
-    .spec__dot {
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        background: #08041533;
-    }
-
-    .spec__dot.active {
-        width: 20px;
-        height: 20px;
-        border: 1px solid;
-        background: #5D3BEE;
-        border: 3px solid #fff;
-        outline: 1px solid #5D3BEE;
-    }
 
     /* PROJECT */
 
@@ -209,6 +187,58 @@
 
     .project__desc {
         font-size: 1.6rem;
+    }
+
+    /* ABOUT */
+    .about__heading {
+        font-size: 4.9rem;
+    }
+
+    .about__desc {
+        width: auto;
+        font-size: 1.6rem;
+    }
+
+    .about__item-heading {
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 1.40;
+        letter-spacing: 0.9px;
+    }
+
+    .about__item-desc {
+        margin-top: 8px;
+        width: 75px;
+        color: #51586A;
+        font-size: 1.6rem;
+    }
+
+    .about__video-btn {
+        width: 77px;
+        height: 77px;
+
+    }
+
+    .about__video-desc {
+        min-width: 118px;
+        line-height: 44px;
+        font-size: 1.2rem;
+        right: 6px;
+        bottom: 12px;
+    }
+
+    .people__quote {
+        text-align: initial;
+        width: 350px;
+        color: #51586A;
+        font-size: 1.8rem;
+        line-height: 1.67;
+        /* 166.667% */
+    }
+
+    .about__decor {
+        width: 96.163px;
+        height: 71.126px;
     }
 }
 
