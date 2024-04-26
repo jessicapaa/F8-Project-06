@@ -190,6 +190,26 @@
         outline: 1px solid #5D3BEE;
     }
 
+    /* PROJECT */
+
+    .project__img {
+        width: 122px;
+        height: 93px;
+    }
+
+    .project__top {
+        flex-wrap: wrap;
+        gap: 32px;
+        text-align: center;
+    }
+
+    .project__heading {
+        font-size: 4.2rem;
+    }
+
+    .project__desc {
+        font-size: 1.6rem;
+    }
 }
 
 
