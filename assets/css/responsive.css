@@ -119,6 +119,12 @@
         margin-top: 30px;
     }
 
+    .hero__decor img {
+        position: absolute;
+        bottom: -390px;
+        right: 0;
+    }
+
     .hero__heading {
         width: 260px;
         color: #080415;
