@@ -770,3 +770,46 @@ a {
     height: 530px;
     object-fit: cover;
 }
+
+/* CONTACT */
+
+.contact {
+    padding-top: 100px;
+    margin-top: 40px;
+}
+
+.contact__inner {
+    padding: 68px 0;
+    position: relative;
+    text-align: center;
+    background: #FBFAFF;
+    overflow: hidden;
+}
+
+.contact__img {
+    margin-bottom: 18px;
+}
+
+.contact__btn {
+    margin-top: 30px;
+}
+
+.contact__decor {
+    position: absolute;
+}
+
+.contact__decor.bl {
+    left: 0;
+    bottom: 0;
+}
+
+.contact__decor.center {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact__decor.tr {
+    top: 0;
+    right: 0;
+}
