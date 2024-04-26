@@ -738,3 +738,35 @@ a {
     background: #08182f;
     margin-top: 10px;
 }
+
+/* PRODUCT */
+
+.product {
+    padding-top: 100px;
+    margin-top: 60px;
+}
+
+.product__top {
+    text-align: center;
+}
+
+.proudct__link {
+    display: inline-block;
+    margin-top: 30px;
+    color: #5D3BEE;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -1.28px;
+    text-decoration-line: underline;
+}
+
+.product__list {
+    margin-top: 70px;
+}
+
+.product__img {
+    width: 370px;
+    height: 530px;
+    object-fit: cover;
+}
